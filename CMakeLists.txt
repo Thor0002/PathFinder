@@ -19,7 +19,9 @@ set(TS_FILES PathFinder_ru_RU.ts)
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
+        painterpath.cpp
         mainwindow.h
+        painterpath.h
         mainwindow.ui
         ${TS_FILES}
 )
